@@ -1,0 +1,87 @@
+
+body{
+    display: flex;
+}
+.registr,
+.tablres    {
+    height: 600px;
+    width: 40%;
+    margin-left: 50px;
+    }
+    /*.tablres{
+       background-color: grey;
+
+    }*/
+.log,
+.logtext,
+.pass,
+.pastext,
+.email,
+.emailtext{
+    width: 100%;
+}
+.log,
+.pass,
+.email{
+    height: 40px;
+}
+.tablpar{
+    border: 2px solid rgb(99, 73, 73);
+    color: black;
+  /*  background-color: blue;*/
+  width: 100%;
+}
+
+.zagolov{
+    width: 100%;
+    display: flex;
+    margin: 10px 2px;
+}
+.num{
+width: 5%;
+}
+.logint{
+width: 20%;}
+.passt{
+width: 20%;}
+.emailt{
+width: 25%;}
+.edit{
+width: 20%;
+}
+.delete{
+  width: 20%;
+  }
+
+.styleedit{
+    background-color: yellow;
+    padding: 2px;
+}
+.styledelete{
+    background-color: red;
+    color: white;
+    padding: 2px;
+}
+  .ed{
+    position: absolute;
+    left: 58px;
+  }
+  .invis{
+display: none;
+  }
+  .vis{
+    display: block;
+      }
+      .add,
+      .ed{
+        margin-top: 20px;
+        width: 100px;
+        height: 40px;
+border: 2px rgb(6, 238, 6) solid;
+      }
+      .add:hover{
+        background-color: rgb(13, 122, 13);
+      }
+      .ed:hover{
+        background-color: rgb(13, 122, 13);
+      }
