@@ -21,10 +21,11 @@ document.querySelector('.add').addEventListener('click', function () {
             {
                 log: login.value, pass: password.value, em: email.value
             }
-            login.value='';
+                );
+           login.value='';
             password.value='';
             email.value='';
-        );
+ 
     }
     login.value='';
     password.value='';
